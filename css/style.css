@@ -1,0 +1,9 @@
+.cameraL {
+    width: 50%;
+    float: left;
+}
+
+.cameraR {
+    width: 50%;
+    float: right;
+}
