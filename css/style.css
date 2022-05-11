@@ -1,14 +1,14 @@
 .cameraL {
-    width: 33%;
+    width: 45%;
     float: left;
 }
 
 .cameraM {
-    width: 33%;
+    width: 10%;
     float: left;
 }
 
 .cameraR {
-    width: 33%;
+    width: 45%;
     float: right;
 }
