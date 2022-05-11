@@ -1,9 +1,14 @@
 .cameraL {
-    width: 50%;
+    width: 33%;
+    float: left;
+}
+
+.cameraM {
+    width: 33%;
     float: left;
 }
 
 .cameraR {
-    width: 50%;
+    width: 33%;
     float: right;
 }
