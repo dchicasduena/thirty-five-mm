@@ -20,6 +20,9 @@
 }
 
 .cameracontainer {
-    height: 50%;
+    height: 160px;
+}
 
+.nav-item{
+    font-size: medium;
 }
