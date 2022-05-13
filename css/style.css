@@ -17,10 +17,18 @@
     list-style-type:none;
     color: #fff;
     text-align: left;
+    font-size: 1.2rem;
 }
+
 
 .cameracontainer {
     height: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8%;
+    height:auto;
+    min-height:30px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link{
@@ -29,4 +37,61 @@
 
 .page-section{
     padding: 2rem;
+}
+
+.current {
+    display:flex;
+}
+
+.hidden {
+    display: none;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image {
+    padding: 6%;
+}
+
+.second{
+    padding-top: 15%;
+    padding-bottom: 15.5%;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+
+    .current {
+        display: block;
+    }
+
+    .second {
+        margin-left: 0%;
+        margin-top: 2%;
+    }
+
+    .hidden {
+        display: block;
+    }
+
+    .masthead {
+        padding-top: 4rem;
+    }
+}
+
+.bg-primary {
+    background-color: #E3655B !important;
+}
+
+a:hover{
+    color: #E3655B !important;
+}
+
+.firstDivider{
+    background-color: #E3655B !important;
 }
