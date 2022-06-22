@@ -61,17 +61,22 @@
     padding-bottom: 15.5%;
 }
 
+.flex-direction{
+    flex-direction:row;
+}
+
 @media only screen and (max-width: 600px) {
-    .row {
-        width: 100%;
+    .flex-direction{
+        flex-direction:column;
     }
 
-    .columnCam {
-        flex: 100%;
-        max-width: 100%;
+    .columnCam{
+        flex: 100% !important;
+        max-width: 100% !important;
+        padding: 0 0px !important;
     }
 
-    .hidden {
+    .hidden{
         display: block;
     }
 
@@ -139,13 +144,13 @@ a:hover{
     object-fit: cover;
 }
 
-div.columnCam {
+.columnCam {
     flex: 25%;
     max-width: 33%;
     padding: 0 4px;
   }
   
-  .row {
+.row {
     width: 100%;
     margin: auto;  
   }
