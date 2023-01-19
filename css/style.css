@@ -1,16 +1,6 @@
-.cameraL {
-    width: 45%;
+.camera {
+    width: 30%;
     float: left;
-}
-
-.cameraM {
-    width: 10%;
-    float: left;
-}
-
-.cameraR {
-    width: 45%;
-    float: right;
 }
 
 .specs {
